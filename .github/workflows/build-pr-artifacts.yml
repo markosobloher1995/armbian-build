@@ -13,7 +13,7 @@ jobs:
       pull-requests: read
 
     name: Check label and authorization  
-    runs-on: Linux
+    runs-on: ubuntu-latest
     outputs:
       member: ${{ steps.checkUserMember.outputs.isTeamMember }}
     steps:
